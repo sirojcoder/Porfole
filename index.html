@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfole</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                sery: '#c4c4c4',
+                black:'#000',
+                fon:'#909090',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+       <header class="h-[520px] bg-sery sm:h-[720px]">
+        <nav class="py-3">
+            <div class="container m-auto max-w-[1200px] px-4 sm:max-w-[full] ">
+                <div class="flex justify-between items-center">
+                <div class="logo font-semibold flex items-center">
+                    
+                   <h3 class="text-[44px]">S&R</h3> 
+                </div>
+                <div class="menu flex gap-11 text-sery font-normal items-center text-[18px] ">
+                    <a href="#About"class=" text-black hidden :hidden md:flex lg:flex xl:flex hover:bg-black hover:text-white hover:px-[1px] hover:rounded-3xl ">About me</a>
+                    <a href="#Skills"class=" text-black hidden :hidden md:flex lg:flex xl:flex hover:bg-black hover:text-white hover:px-[1px] hover:rounded-3xl ">Skills</a>
+                    <a href="#Portfole"class="text-black hidden :hidden md:flex lg:flex xl:flex hover:bg-black hover:text-white hover:px-[1px] hover:rounded-3xl">Portfole</a>
+                    <a href="#Contact"><button class="bg-black px-6 py-1 rounded-3xl text-sery hidden :hidden md:flex lg:flex xl:flex">Contact me</button></a>
+                    <i class='bx bx-menu text-5xl  text-black :flex md:hidden lg:hidden xl:hidden' ></i>
+                </div>
+            </div>
+            </div>
+        </nav>
+
+        <div class="container m-auto max-w-[1200px]  ">
+        <div class="flex justify-between  px-2 items-center py-11 ">
+              <div class="text flex flex-col gap-11">
+                <div >
+                  <b class="text-[22px]">HI, I am</b>
+                  <h1 class="text-[48px] font-medium sm:text-[68px]">Siroj Radjabboev</h1>
+                  <p class="text-[18px]">Fron-end Devoloper</p>
+             </div>
+             <div class=" icon mt-9 flex gap-5">
+                <a href="https://instagram.com/s_radjabboyev"target="_blank"class="bg-fon px-2 text-[22px] rounded  "><i class='bx bxl-instagram'></i></a >
+                <a href="https://t.me/S_Radjabboev"target="_blank"class="bg-fon px-2 text-[22px] rounded "><i class='bx bxl-telegram' ></i></a>
+                <a href="https://github.com/sirojcoder"target="_blank"class="bg-fon px-2 text-[22px] rounded "><i class='bx bxl-github' ></i></a>
+                <a href="mailto:sirojcoder@gmail.com"target="_blank"class="bg-fon px-2 text-[22px] rounded "><i class='bx bxs-envelope' ></i></a>
+             </div>
+              </div>
+              <div class="header-right  ">
+                <img src="./images/me photo bg.png" alt="me" class="w-[550px] h-[550px] hidden sm:flex">
+              </div>
+        </div>
+    </div>
+       </header>
+       <main class="bg-sery">
+        <div class="bg-black text-sery">
+          <div class="container m-auto max-w-[1200px] px-4">
+            <div class=" py-7 ">
+                <b class="text-[22px] text-white">INFORMATION</b>
+                <P class="text-[14px] my-3">Men Siroj Radjabboev 1999-yil 13-Oktabrda Xorazm Viloyatida  tug'ulganman.7-sonli Maktabni tugatib 2015-yilda Iqtisodiyot kollejiga kirganman.Va hozirda Japan Digital Universityda tahsil olaman. Va shu bilan Najotda Front-end dastulashda o'qiyman...</P>
+                <b class="border-x-2 px-3 font-normal text-white">Read More</b>            
+            </div>
+          </div>
+        </div>
+        <section id="About">
+         <div class="container  m-auto max-w-[1200px] px-4">
+           
+            <div class="flex flex-col justify-center items-center "> 
+                <div class="py-7">
+                    <div class="flex justify-center text-black text-[28px] sm:text-[38px] py-11 "><h2 class="border-4 border-slate-950 px-4">ABOUT ME</h2></div>
+            
+                    <p class=" text-center text-[12px]">Dastulashga qiziqish 2021-yilda boshlangan har xil saytlarni yaratib  korishni va ozim yaratgan saytlardan <br> foydalanishlarini hohlardim shu boyis Front-end ni tanlaganman.</p>
+                <div class=" flex justify-center py-11 "><b class="border-x-2 border-slate-950 font-normal px-3">Explore</b></div>
+                <div class="flex justify-center py-7"> <img src="./images/separatorBlack 1.svg" alt=""></div>
+               
+                </div>
+                <div class="flex justify-between items-center gap-11 py-7">
+                    <div class="flex flex-col items-start "> 
+                        <div class="flex items-end gap-5 py-5"><img src="./images/front.svg" alt="">
+                        <b class="text-[14px] sm:text-[22px]">Maintanance</b></div>
+                        
+                        <p class="text-[12px]"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse in laboriosam illo et perspiciatis! </p>
+                    </div>
+                    <div class="flex flex-col items-start">
+                        <div class="flex items-end gap-5 py-3"><img src="./images/maintenance--v3 1.svg" alt="">
+                        <b class="text-[14px] sm:text-[22px]">Front-end</b></div>
+                        
+                        <p class="text-[12px]"> Front-endni yaqinda boshladim bir necha oylardan keyin  Front-end dastuchi bolish ishlash  <br>niyatim bor</p>
+                    </div>
+                    
+                </div>
+                <img src="./images/separatorBlack 1.svg" alt="">
+            </div>
+         </div>
+        </section>
+        <section id="Skills">
+          <div class="container m-auto max-w-[1200px] px-4">
+            <div class="flex justify-center py-[70px]">
+                <h2 class="border-4 border-slate-950 px-6 text-[28px] sm:text-[38px] ">SKILLS</h2>
+            </div>
+            <div class="py-[60px] text-[20px] font-medium">USING NOW :</div>
+            <div class="grid grid-cols-2 gap-[80px] sm:grid-cols-4">
+                <div class=" flex flex-col justify-center items-center">
+                    <img src="./images/ICON/Group 12.svg" alt="html">
+                    <p class="py-3">HTML5</p>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <img src="./images/ICON/Group 13.svg" alt="html">
+                    <p class="py-3">CSS3</p>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <img src="./images/ICON/Vector (1).svg" alt="html">
+                    <p class="py-3">SASS</p>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <img src="./images/ICON/Group.svg" alt="html">
+                    <p class="py-3">JAVASCRIPT</p>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <img src="./images/ICON/REACT.svg" alt="html">
+                    <p class="py-3">REACT</p>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <img src="./images/ICON/bootstrap.svg" alt="html">
+                    <p class="py-3">BOOTSTRAP</p>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <img src="./images/ICON/git.svg" alt="html">
+                    <p class="py-3">GIT</p>
+                </div >
+                <div class="flex flex-col justify-center items-center">
+                    <img src="./images/ICON/figma.svg" alt="html">
+                    <p class="py-3">FIGMA</p>
+                </div>
+            </div>
+
+            <div class="py-7 text-[20px] font-medium py-[70px]">LEARNING:</div>
+            <div class="grid grid-cols-2 gap-[80px] sm:grid-cols-4">
+                <div class=" flex flex-col justify-center items-center">
+                    <img src="./images/Flag_of_Japan.svg-removebg-preview.png" class="w-[195px] h-[100px]" alt="html">
+                    <p class="py-3">JAPANES N2</p>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <img src="./images/Turkey_Flag-removebg-preview.png" class="w-[105px] h-[100px]" alt="html">
+                    <p class="py-3">TURKISH C1</p>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <img src="./images/ICON/Vector (2).svg" alt="html">
+                    <p class="py-3">My SQL</p>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <img src="./images/ICON/Vector (3).svg" alt="html">
+                    <p class="py-3">MONGODB</p>
+                </div>
+          </div>
+        </section>
+        <section id="Portfole">
+            <div class="container m-auto max-w-[1200px] px-4"> 
+                
+                <div class="flex justify-center py-[70px]">
+                    <h2 class="border-4 border-slate-950 text-[28px] sm:text-[38px] px-4">PORTFOLE</h2>
+                </div>
+                <div class="flex justify-center"><img src="./images/separatorBlack 1.svg" alt=""></div>
+                <div class=" text-[20px] font-medium py-[20px]">WEB SITE:</div>
+                <div class="grid grid-cols-1 sm:grid-cols-3">
+                <div class="flex justify-between items-center flex-col ">
+                    <a href="https://7-dars-home-work.vercel.app/" target="_blank" ><img src="./images/SAYT.jpg"class="w-[300px] h-[200px]" alt="sayt"></a>
+                     <p class="py-5">FURA TRAC LOGISTIC</p>                
+                </div>
+                <div class="flex justify-between items-center flex-col ">
+                    <a href="https://2exam-sirojs-projects.vercel.app/" target="_blank" ><img src="./images/SYT22.jpg"class="w-[300px] h-[200px]" alt="sayt"></a>
+                    <P class="py-5">PORTFOLE</P>
+                </div>
+                <div class="flex justify-between items-center flex-col ">
+                    <a href="https://6-dars-home-work.vercel.app/" target="_blank" ><img src="./images/burger.jpg"class="w-[300px] h-[200px]" alt="sayt"></a>
+                <P class="py-5">BURGER FAST FOOD</P>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="Contact">
+            <div class="container m-auto max-w-[1200px] px-4">
+                <div class="flex justify-center py-[70px]">
+                    <h2 class="border-4 border-slate-950 text-[28px] sm:text-[38px] px-4">CONTACT</h2>
+                </div> 
+                <div class="flex justify-center "><P>Men bilan bog'lanmoqchi bo'lsangiz pasdagi malumotlarni to'ldiring va men sizga habar beraman iltimos</P></div>
+                <div class="flex justify-center py-5"><img src="./images/separatorBlack 1.svg" alt=""></div>
+               
+                <div class=" py-[70px]">
+                    <form action="#" class="flex flex-col gap-5 justify-center items-center  py-5">
+                        <input type="text" placeholder="ENTER YOUR NAME*"  class="w-[350px] h-[40px]  sm:w-[600px] h-[60px] px-4   bg-sery border-b-4 border-l-4 border-slate-950">
+                        <input type="gmail" placeholder="ENTER YOUR GMAIL*" class="w-[350px] h-[40px] sm:w-[600px] h-[60px] px-4  bg-sery border-b-4 border-l-4 border-slate-950">
+                        <input type="tel" placeholder="PHONE NUMBER*" class="w-[350px] h-[40px] sm:w-[600px] h-[60px] px-4 bg-sery border-b-4 border-l-4 border-slate-950">
+                        <textarea name="text"  id="" class="w-[350px] h-[60px] sm:w-[600px] h-[90px] px-4  bg-sery border-b-4 border-l-4 border-slate-950">YOUR MESSAGE* </textarea>
+                        <button class="border-l-4 border-r-4 border-slate-950 px-4 font-medium ">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+       </main>
+       <footer class="h-[180px] bg-black ">
+        <div class="container  m-auto max-w-[1200px] px-4">
+        <div class="flex flex-col justify-center items-center gap- ">
+            <b class="text-sery py-5 text-[22px]">BACK TOP</b>
+            <div class=" flex gap-9">
+                <a href="https://instagram.com/s_radjabboyev"target="_blank"class="bg-fon px-2 text-[22px] rounded  "><i class='bx bxl-instagram'></i></a >
+                <a href="https://t.me/S_Radjabboev"target="_blank"class="bg-fon px-2 text-[22px] rounded "><i class='bx bxl-telegram' ></i></a>
+                <a href="https://github.com/sirojcoder"target="_blank"class="bg-fon px-2 text-[22px] rounded "><i class='bx bxl-github' ></i></a>
+                <a href="mailto:sirojcoder@gmail.com"target="_blank"class="bg-fon px-2 text-[22px] rounded "><i class='bx bxs-envelope' ></i></a>
+             </div>
+            </div>
+            <div class="flex justify-center py-7">
+                <P class="text-sery text-[12px]">@2024 SIROJ RADJABBEV ALL RIGHTS RESERVED</P>
+            </div>
+            </div>
+        </div>
+       </footer>
+</body>
+</html>
